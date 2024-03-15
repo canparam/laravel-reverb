@@ -6,7 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "ken/redisjsonmodel": "*@dev",
         "laravel/framework": "^11.0",
         "laravel/pulse": "^1.0@beta",
         "laravel/reverb": "@beta",
@@ -69,11 +68,5 @@
         }
     },
     "minimum-stability": "beta",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./lib/*"
-        }
-    ]
+    "prefer-stable": true
 }
